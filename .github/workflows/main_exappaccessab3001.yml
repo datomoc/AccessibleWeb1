@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'exappaccessab3001'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8BD24477F8EA4A7C9CCD4010C9F7BC88 }}
+          publish-profile: 'publishprfile'
           package: .
